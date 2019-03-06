@@ -9,8 +9,8 @@ body {
   background-repeat: repeat;
   background-size: auto;
   color: white;
-}  
-    
+}
+
 
 /*button colors*/
 
@@ -179,6 +179,9 @@ h1 {
   margin-bottom: 30px;
 }
 
+
+/*Buttons that control the game and instructions*/
+
 .sett-btn {
   height: 35px;
   width: 90px;
@@ -199,8 +202,7 @@ h1 {
 .sett-btn:hover {
   color: #fff;
 }
-/*Buttons that control the game*/
-  
+
 .btn-strict {
   font-family: "Mali";
   font-size: 1.1em;
