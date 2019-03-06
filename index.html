@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BrainGame</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico" sizes="32x32" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row header-row">
+                <div class="md-col-12">
+                    <h1 class="text-center">Brain Game <i class="fas fa-brain"></i></h1>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="row">
+                <div class="md-col-12">
+                    <div class="mainconsole">
+                        <div class="btn-settings" data-toggle="modal" data-target="#myModal">
+                            <button class="sett-btn">Instructions</button>
+                        </div>
+                        <div class="heading-btns">
+                            <button class="start-btn" id="start" onClick="start()">Start</button>
+                            <button class="btn-strict" id="strict" onClick="strict()">Strict OFF</button>
+                            <button class="btn-reset" onClick="newGame()">Reset</button>
+                        </div>
+                        <div class="top-row">
+                            <div id="blue" class="buttonclick" onClick="addToPlayer(this.id)"></div>
+                        </div>
+
+                        <div class="middle-row">
+                            <div id="green" class="buttonclick" onClick="addToPlayer(this.id)"></div>
+                            <div id="roundNumber" style="text-align: center;">
+                              <p>Score</p>
+                                <h2 id="numberCounter">0</h2>
+                            </div>
+                            <div id="yellow" class="buttonclick" onClick="addToPlayer(this.id)"></div>
+                        </div>
+
+                        <div class="bottom-row">
+                            <div id="red" class="buttonclick" onClick="addToPlayer(this.id)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title text-center" id="myModalLabel">Are You Smart Enough?</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="about-game">
+                                    You click on the "Start" button and one of the colours on the screen will flash and also make a sound. You must follow this pattern by clicking the colour that flashed. If you guess correctly, an alert will flash up on the screen saying "Well Done! Next Round".
+                                    The process will then repeat, with an extra move being added with every round (make sure you're paying attention". If you guess incorrectly an alert will pop up on the screen saying "Ah Sure, Better Luck Next Time Partner". The pattern will then be repeated to remind you
+                                    of the sequence, and once the pattern is complete you can try follow it again. Once you have reached a count of 20, an alert will pop up on the screen saying "You Are A True BrainGame Master, We Bow Down To You". <br>
+                                    <br>
+                                    <strong>Strict Mode</strong> - Once you enable Strict Mode, if you get the pattern wrong, there is no second chances. An alert will pop up on the screen saying "Better Luck Next Time! Try Again!". <br>
+                                    <p class="text-center lucky-end"><strong>Sit Back, Relax And Test Your Brain Power!</strong></p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary hvr-grow" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
