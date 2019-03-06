@@ -63,7 +63,7 @@ There is a counter set directly in the middle between all of the gamebuttons whi
 ## Testing
 
 I have tested this game across multiple screen sizes. The only difficulty/bug to report was from the design shown in my first wireframe. After feedback and trial and error, i chose a much more simple design aspect and it was alot more fluid. 
-
+There is a known issue with iPhones running iOS that it won't auto play a sound unless the user interacts first to which it will then play the sound. 
 **Devices Used:**
 - Samsung Galaxy S9 – Android 8.0
 - Samsung Galaxy S7 - Android 8.0
