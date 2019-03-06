@@ -1,0 +1,363 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Ubuntu:700|Mali:400,700');
+
+/*body*/
+
+body {
+  background-color: #3e3e3e;
+  background-repeat: repeat;
+  background-size: auto;
+  color: white;
+}  
+    
+
+/*button colors*/
+
+#blue {
+  border: 2px solid white;
+  background-color: #00ffff00;
+  color: #00ffff00;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #2196F3;
+  color: dodgerblue;
+}
+
+
+#green {
+  border: 2px solid white;
+  background-color: #00ffff00;
+  color: #00ffff00;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #4CAF50;
+  color: green;
+}
+
+
+#yellow {
+  border: 2px solid white;
+  background-color: #00ffff00;
+  color: #00ffff00;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #ffff00;
+  color: red
+}
+
+
+#red {
+  border: 2px solid white;
+  background-color: #00ffff00;
+  color: #00ffff00;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #f44336;
+  color: red
+}
+
+/*button hover*/
+
+.start-btn:hover {
+  border-color: #00ca2b;
+  background-color: #00ca2b;
+  color: #000;
+}
+
+.btn-reset:hover {
+  border-color: #00ca2b;
+  background-color: #00ca2b;
+  color: #000;
+}
+
+.btn-strict:hover {
+  border-color: #00ca2b;
+  background-color: #00ca2b;
+  color: #000;
+}
+
+#clickNumber {
+  font-family: "Mali";
+  font-weight: 700;
+  font-size: 3em;
+}
+
+
+#blue:active,
+#blue.hover {
+  background: #2196F3;
+  cursor: pointer;
+  color: white;
+}
+
+#green:active,
+#green.hover {
+  background-color: #4CAF50;
+  cursor: pointer;
+  color: white;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#yellow:active,
+#yellow.hover {
+  background-color: #ffff20;
+  cursor: pointer;
+  color: white;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+
+#red:active,
+#red.hover {
+  background-color: #f44336;
+  cursor: pointer;
+  color: white;
+}
+
+.buttonclick {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.buttonclick:hover {
+  cursor: pointer;
+}
+
+.header-row {
+  height: 75px;
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 25px auto;
+}
+
+h1 {
+  font-family: "Mali";
+  font-weight: 700;
+  font-size: 3.5em;
+  text-shadow: 4px 4px 2px rgba(162, 156, 156, 1);
+}
+
+.mainconsole {
+  max-width: 550px;
+  margin: 20px auto;
+}
+
+.btn-settings {
+  font-family: "Mali";
+  color: black;
+  text-align: center;
+
+}
+
+.heading-btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.sett-btn {
+  height: 35px;
+  width: 90px;
+  font-size: .8em;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: 500ms;
+  background-color: #00ffff00;
+  background: linear-gradient(to left bottom, #2d0909, #5c0a15, #8e0318, #c10015, #f40303);
+  color: white;
+  cursor: pointer;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+
+.sett-btn:hover {
+  color: #fff;
+}
+/*Buttons that control the game*/
+  
+.btn-strict {
+  font-family: "Mali";
+  font-size: 1.1em;
+  height: 70px;
+  width: 70px;
+  padding: 4px 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: 500ms;
+  margin-top: 30px;
+  color: white;
+  background-color: #00ffff00;
+  background: linear-gradient(to left bottom, #2d0909, #5c0a15, #8e0318, #c10015, #f40303);
+  cursor: pointer;
+}
+
+.btn-reset {
+  font-family: "Mali";
+  font-size: 1.1em;
+  height: 70px;
+  width: 70px;
+  padding: 4px 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: 500ms;
+  margin-top: 30px;
+  color: white;
+  background-color: #00ffff00;
+  background: linear-gradient(to left bottom, #2d0909, #5c0a15, #8e0318, #c10015, #f40303);
+  cursor: pointer;
+}
+
+.start-btn {
+  font-family: "Mali";
+  font-size: 1.1em;
+  height: 70px;
+  width: 70px;
+  padding: 4px 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: 500ms;
+  margin-top: 30px;
+  color: white;
+  background-color: #00ffff00;
+  background: linear-gradient(to left bottom, #2d0909, #5c0a15, #8e0318, #c10015, #f40303);
+  cursor: pointer;
+}
+
+.btn-strict {
+  font-size: .95em;
+}
+
+.btn-reset {
+  padding-left: 8px;
+}
+
+
+
+/*Modal*/
+
+.modal-body,
+.modal-title {
+  font-family: "Mali";
+  color: #fff;
+}
+
+.modal-title {
+  font-weight: 700;
+}
+
+.about-game {
+  font-size: 1em;
+}
+
+.lucky-end {
+  font-size: 1.2em;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-header {
+  border-bottom: 1px solid #848383;
+}
+
+.modal-footer {
+  text-align: center;
+  border-top: 1px solid #848383;
+}
+
+button.btn.btn-primary {
+  color: #fff;
+  background-color: #848383;
+  border-color: #848383;
+  font-family: Mali;
+  font-weight: 700;
+}
+
+button.btn.btn-primary:hover,
+button.btn.btn-primary:active {
+  background-color: #848383;
+  border-color: #848383;
+}
+
+span {
+  color: #848383;
+}
+
+/*SweetAlert Modal*/
+
+.swal-modal {
+  font-family: Mali
+}
+
+.swal-footer {
+  text-align: center;
+}
+
+button.swal-button.swal-button--confirm {
+  background-color: rgb(255, 0, 0);
+}
+
+.swal-icon--error {
+  border-color: rgb(255, 0, 0);
+}
+
+span.swal-icon--error__line {
+  background-color: rgb(255, 0, 0);
+}
+
+
+/*Media Queries*/
+
+@media (max-width: 425px) {
+  .buttonclick {
+    width: 115px;
+    height: 115px;
+  }
+
+  .middle-row {
+    height: 78px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .mainconsole {
+    margin-left: 10px;
+  }
+
+  .modal-body {
+    padding-bottom: 3px;
+  }
+
+  .modal-header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+}
