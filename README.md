@@ -23,8 +23,14 @@ The purpose of this project is to create a static **(front-end only)** website a
  
  These can be found at the following links below:
 
->https://github.com/jtuck15/milestone-project-2/blob/master/assets/copycat_original_wireframe.png
-https://github.com/jtuck15/milestone-project-2/blob/master/assets/copycat_updated_wireframe.png
+-https://github.com/colmcallan/milestone-project-2/blob/master/assets/images/wireframe1.jpg
+-https://github.com/colmcallan/milestone-project-2/blob/master/assets/images/wireframe2.jpg
+
+### Original Design On Mobile
+
+This can be found at the below link:
+
+-https://github.com/colmcallan/milestone-project-2/blob/master/assets/images/original.PNG 
 
 ## Features Of The Game
 
@@ -32,7 +38,7 @@ https://github.com/jtuck15/milestone-project-2/blob/master/assets/copycat_update
 The gamebuttons are only filled in when the game selects its pattern and the user follows suit by pressing the correct pattern. I found this to be a little bit different however still easy to follow and see for the user. 
 
 ### Instructions
-This button opens a modal which provides the user with all of the information they need on how to play the game and how the game works.
+This button opens a modal which provides the user with all of the information they need on how to play the game and how the game works.This is styled to suit the color pallete of my page and stand out. 
 
 ### Start 
 This button allows the user to start the game when they are ready to play, instead of the game starting automatically when the webpage loads.
